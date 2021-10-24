@@ -38,7 +38,7 @@ else:
 s4=''
 if 'TO' in x:
     for i in range(0,len(x)):
-        if x[i]=='T' and x[i+1]=='O':
+        if ((x[i]=='T') and (x[i+1]=='O')):
             s4=x.replace('TO','')
     print("f)şirul obţinut prin radierea din şirul X a tuturor apariţiilor silabei TO=",s4)
 else:
